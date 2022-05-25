@@ -79,3 +79,8 @@ var result = year.concat('/',month,'/',day, ' ', hour, ':',minute,':',second)
 
 console.log(result);  // 2019/04/26 11:34:27라고 출력되게하기
 
+
+// #10. 인풋모름 패스
+
+
+
