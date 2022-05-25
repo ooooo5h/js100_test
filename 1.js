@@ -84,3 +84,13 @@ console.log(result);  // 2019/04/26 11:34:27라고 출력되게하기
 
 
 
+// # 11. for을 이용한 기본 활용
+// 1부터 100까지 모두 더하는 코드를 for를 사용하여작성해라
+let s = 0;
+
+for (i = 1; i <= 100; i++) {
+    s += i
+    // console.log(i)
+}
+
+console.log(s);
