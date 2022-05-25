@@ -55,3 +55,14 @@ for(var i=1; i<5; i+=2){
 // 3)  let    -> 예약어
 // 4)  _age
 // 5)  1age   -> 숫자로 시작 불가. 문자/밑줄(_)/달러기호($)로만 시작
+
+// #8. 객체의 키 이름 중복
+var d = {
+    'height':180,
+    'weight':78,
+    'weight':84,
+    'temperature':36,
+    'eyesight':1
+};
+
+// console.log(d['weight']); 의 출력값은 ? 78? 땡
