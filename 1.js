@@ -24,3 +24,17 @@ console.log(typeof(arr));  // 정답 object
 // 2)  입력 : a = 2.22,   출력 : boolean   -> Number
 // 3)  입력 : a = 'p',   출력 : string
 // 4)  입력 : a = [1, 2, 3],   출력 : object
+
+// #5. for문 계산
+var a = 10;
+var b = 2;
+
+for(var i=1; i<5; i+=2){
+    a += i;
+}
+
+// console.log(a+b); 의 값은 ? 
+// i가 1일때 a는 10 + 1 = 11
+// i가 3일때 a는 11 + 3 = 14
+// i가 5면 반복문 종료. 
+// a+b는 14+2로 정답 16.
