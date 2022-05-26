@@ -212,10 +212,10 @@
 // # 25. 원의 넓이
 // 내가 푼 풀이
 
-let n = prompt('반지름 : ')
-// console.log(typeof n)  // string
-n = parseInt(n, 10)
-console.log(n*n*3.14);
+// let n = prompt('반지름 : ')
+// // console.log(typeof n)  // string
+// n = parseInt(n, 10)
+// console.log(n*n*3.14);
 
 // 답안 풀이
 // function circle(n) {
@@ -225,3 +225,19 @@ console.log(n*n*3.14);
 
 // const r = prompt('반지름 : ')
 // console.log(circle(r));
+
+// # 26. 행성문제2
+
+const planets  = {
+    '수성' : 'Mercury',
+    '금성' : 'Venus',
+    '지구' : 'Earth',
+    '화성' : 'Mars',
+    '목성' : 'Jupiter',
+    '토성' : 'Saturn',
+    '천왕성' : 'Uranus',
+    '해왕성' : 'Neptune',
+}
+
+const input = prompt('행성 한글 이름 : ');
+console.log(planets [input]);
