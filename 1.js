@@ -111,4 +111,9 @@ const x = new Wizard(545, 210, 10);
 console.log(x.health, x.mana, x.armor);
 x.attack();
 
+// # 13. 몇번째 행성인가요?
+let arr_13 = ['수성', '금성', '지구', '화성', '목성', '토성', '천왕성', '해왕성']
+
+let n = prompt('n 입력 : ')
+console.log(arr_13[n-1]);
 
