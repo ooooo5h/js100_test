@@ -198,3 +198,6 @@ const rest_num = parseInt(numbers[0], 10) % parseInt(numbers[1], 10)
 console.log(divided_num, rest_num);
 
 // # 21. set 안배웠으므로 패스
+
+// # 22. 배수인지 확인하기 
+// 정답 2번 
