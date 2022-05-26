@@ -112,16 +112,20 @@ console.log(x.health, x.mana, x.armor);
 x.attack();
 
 // # 13. 몇번째 행성인가요?
-let arr_13 = ['수성', '금성', '지구', '화성', '목성', '토성', '천왕성', '해왕성']
+// let arr_13 = ['수성', '금성', '지구', '화성', '목성', '토성', '천왕성', '해왕성']
 
 // let n = prompt('n 입력 : ')
-console.log(arr_13[n-1]);
+// console.log(arr_13[n-1]);
 
 // # 14. 3의 배수인가?
-const n = prompt('숫자 입력 : ')
+// const n = prompt('숫자 입력 : ')
 
-if (n % 3 === 0) {
-    console.log('짝')
-} else {
-    console.log(n)
-}
+// if (n % 3 === 0) {
+//     console.log('짝')
+// } else {
+//     console.log(n)
+// }
+
+// # 15. 자기소개
+const name = prompt('이름입력 : ')
+console.log(`안녕하세요. 저는 ${name}입니다.`)
