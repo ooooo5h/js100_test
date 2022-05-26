@@ -127,5 +127,18 @@ x.attack();
 // }
 
 // # 15. 자기소개
-const name = prompt('이름입력 : ')
-console.log(`안녕하세요. 저는 ${name}입니다.`)
+// const name = prompt('이름입력 : ')
+// console.log(`안녕하세요. 저는 ${name}입니다.`)
+
+// # 16. 로꾸꺼
+const input = prompt('문자 입력 : ')
+
+function reverse_msg(msg) {
+
+    const input_msg = msg.split('');  // 하면 문자열을 배열로 만든다.
+    input_msg.reverse();   // 하면 문자열 거꾸로 정렬
+    const return_msg = input_msg.join('')  // 하면 다시 배열을 문자열로 만든다.
+    return return_msg
+}
+
+console.log(reverse_msg(input))
