@@ -144,10 +144,34 @@ x.attack();
 // console.log(reverse_msg(input))
 
 // # 17. 놀이기구 키 제한
-const height = prompt('키 : ')
+// const height = prompt('키 : ')
 
-if (height >= 150) {
-    console.log('YES')
-} else {
-    console.log('NO')
-}
+// if (height >= 150) {
+//     console.log('YES')
+// } else {
+//     console.log('NO')
+// }
+
+// #18. 평균 점수
+// 내가 푼 (지저분한) 풀이
+const scores = prompt('점수 입력 : ');
+
+const [korean, math, english]= scores.split(' ');
+// console.log(korean, math, english);    제대로 담겼다.
+
+const score_numbers = Number(korean) + Number(math) + Number(english)
+
+const avg = score_numbers / 3
+
+console.log(Math.floor(avg))    // 소수자리 버림
+
+
+// 정답 풀이
+// const scores = prompt('점수 입력 : ').split(' ')   // 바로 split으로 나눠서 scores에 담기
+// let sum = 0;
+
+// for (let i = 0; i < scores.length; i++) {
+//     sum += parseInt(scores[i], 10);    // parseInt는 문자열을 숫자로 변경한다.
+// }
+
+// console.log(Math.floor(sum/3));
