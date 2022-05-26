@@ -177,11 +177,22 @@
 // console.log(Math.floor(sum/3));
 
 // # 19. 제곱을 구하자
-const numbers = prompt('a와 b 입력 : ').split(' ')   // 공백으로 숫자 나누기
+// const numbers = prompt('a와 b 입력 : ').split(' ')   // 공백으로 숫자 나누기
 
-// const a = parseInt(numbers[0], 10);
-// const b = parseInt(numbers[1], 10);
+// // const a = parseInt(numbers[0], 10);
+// // const b = parseInt(numbers[1], 10);
 
-// console.log(Math.pow(a, b));
-// 코드 줄이기
-console.log(Math.pow(parseInt(numbers[0], 10), parseInt(numbers[1], 10)))
+// // console.log(Math.pow(a, b));
+// // 코드 줄이기
+// console.log(Math.pow(parseInt(numbers[0], 10), parseInt(numbers[1], 10)))
+
+// # 20. 몫과 나머지
+const numbers = prompt('두개의 숫자 입력 : ').split(' ')
+
+// const first_num = parseInt(numbers[0], 10);
+// const second_num = parseInt(numbers[1], 10);
+
+const divided_num = Math.floor(parseInt(numbers[0], 10)/parseInt(numbers[1], 10));  // 몫만 출력하려면 Math.floor로 소수자리 날려주기
+const rest_num = parseInt(numbers[0], 10) % parseInt(numbers[1], 10)
+
+console.log(divided_num, rest_num);
