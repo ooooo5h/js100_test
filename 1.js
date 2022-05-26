@@ -187,15 +187,15 @@
 // console.log(Math.pow(parseInt(numbers[0], 10), parseInt(numbers[1], 10)))
 
 // # 20. 몫과 나머지
-const numbers = prompt('두개의 숫자 입력 : ').split(' ')
+// const numbers = prompt('두개의 숫자 입력 : ').split(' ')
 
-// const first_num = parseInt(numbers[0], 10);
-// const second_num = parseInt(numbers[1], 10);
+// // const first_num = parseInt(numbers[0], 10);
+// // const second_num = parseInt(numbers[1], 10);
 
-const divided_num = Math.floor(parseInt(numbers[0], 10)/parseInt(numbers[1], 10));  // 몫만 출력하려면 Math.floor로 소수자리 날려주기
-const rest_num = parseInt(numbers[0], 10) % parseInt(numbers[1], 10)
+// const divided_num = Math.floor(parseInt(numbers[0], 10)/parseInt(numbers[1], 10));  // 몫만 출력하려면 Math.floor로 소수자리 날려주기
+// const rest_num = parseInt(numbers[0], 10) % parseInt(numbers[1], 10)
 
-console.log(divided_num, rest_num);
+// console.log(divided_num, rest_num);
 
 // # 21. set 안배웠으므로 패스
 
@@ -204,3 +204,7 @@ console.log(divided_num, rest_num);
 
 // # 23. ox문제
 // 아니다. 3.333333.. 이 출력된다.
+
+// # 24. 대문자로 바꿔주세요
+const input = prompt('이름 입력 : ').toUpperCase()
+console.log(input);
