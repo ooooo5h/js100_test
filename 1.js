@@ -206,5 +206,22 @@
 // 아니다. 3.333333.. 이 출력된다.
 
 // # 24. 대문자로 바꿔주세요
-const input = prompt('이름 입력 : ').toUpperCase()
-console.log(input);
+// const input = prompt('이름 입력 : ').toUpperCase()
+// console.log(input);
+
+// # 25. 원의 넓이
+// 내가 푼 풀이
+
+let n = prompt('반지름 : ')
+// console.log(typeof n)  // string
+n = parseInt(n, 10)
+console.log(n*n*3.14);
+
+// 답안 풀이
+// function circle(n) {
+//     const result = n * n * 3.14;
+//     return result;
+// }
+
+// const r = prompt('반지름 : ')
+// console.log(circle(r));
