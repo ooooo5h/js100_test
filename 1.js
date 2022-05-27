@@ -80,7 +80,7 @@
 // console.log(result);  // 2019/04/26 11:34:27라고 출력되게하기
 
 
-// // #10. 인풋모름 패스
+// #10. 별찍기
 
 
 
@@ -243,14 +243,27 @@
 // console.log(planets [input]);
 
 // # 27. 객체 만들기
-const keys = prompt('이름 : ').split(' ');    // 이름 공백으로 나누기
-const values = prompt('점수 : ').split(' ');  // 점수 공백으로 나누기
+// const keys = prompt('이름 : ').split(' ');    // 이름 공백으로 나누기
+// const values = prompt('점수 : ').split(' ');  // 점수 공백으로 나누기
 
-const obj = {};  // 먼저 객체를 생성하고
+// const obj = {};  // 먼저 객체를 생성하고
 
-// 반복문으로 돌면서 추가해주자.
-for(let i = 0; i < keys.length; i++) {
-    obj[keys[i]] = parseInt(values[i], 10);    // 점수는 숫자가 아니니까 parseInt로 변환
-};
+// // 반복문으로 돌면서 추가해주자.
+// for(let i = 0; i < keys.length; i++) {
+//     obj[keys[i]] = parseInt(values[i], 10);    // 점수는 숫자가 아니니까 parseInt로 변환
+// };
 
-console.log(obj);
+// console.log(obj);
+
+// # 28. 2-gram
+// 내가 생각한 풀이 : 2번째 배열을 만들고 그 배열을 슬라이싱하기.
+// 그래서 반복문 돌면서 하나하나씩 출력하려그랬음..
+// const first_letters = prompt('문자열 입력 : ').split('')
+// console.log(first_letters)    // ['j','a','v','a',... ]
+// const second_letters = first_letters[]
+
+// 정답 풀이
+const data = prompt('문자 입력 : ')
+for (let i = 0; i < data.length-1; i++) {
+    console.log(data[i], data[i+1]);
+}
