@@ -263,7 +263,15 @@
 // const second_letters = first_letters[]
 
 // 정답 풀이
-const data = prompt('문자 입력 : ')
-for (let i = 0; i < data.length-1; i++) {
-    console.log(data[i], data[i+1]);
+// const data = prompt('문자 입력 : ')
+// for (let i = 0; i < data.length-1; i++) {
+//     console.log(data[i], data[i+1]);
+// }
+
+// # 29. 대문자만 지나가세요
+const data = prompt('알파벳 입력하세요 : ')
+if (data === data.toUpperCase()) {
+    console.log('YES');
+} else {
+    console.log('NO');
 }
