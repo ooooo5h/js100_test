@@ -269,9 +269,15 @@
 // }
 
 // # 29. 대문자만 지나가세요
-const data = prompt('알파벳 입력하세요 : ')
-if (data === data.toUpperCase()) {
-    console.log('YES');
-} else {
-    console.log('NO');
-}
+// const data = prompt('알파벳 입력하세요 : ')
+// if (data === data.toUpperCase()) {
+//     console.log('YES');
+// } else {
+//     console.log('NO');
+// }
+
+// #30. 문자열 속 문자찾기
+const data = prompt('문자열 입력 : ')
+const find_letter = prompt('찾을 문자 입력 : ')
+
+console.log(data.indexOf(find_letter))
