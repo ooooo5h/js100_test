@@ -277,7 +277,9 @@
 // }
 
 // #30. 문자열 속 문자찾기
-const data = prompt('문자열 입력 : ')
-const find_letter = prompt('찾을 문자 입력 : ')
+// const data = prompt('문자열 입력 : ')
+// const find_letter = prompt('찾을 문자 입력 : ')
 
-console.log(data.indexOf(find_letter))
+// console.log(data.indexOf(find_letter))
+
+// #31. 패스
