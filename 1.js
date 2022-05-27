@@ -283,3 +283,7 @@
 // console.log(data.indexOf(find_letter))
 
 // #31. 패스
+
+// # 32. 문자열 만들기
+const a = prompt('문자열 입력 : ');
+console.log(a.split(' ').length);
