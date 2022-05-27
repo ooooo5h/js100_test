@@ -285,5 +285,15 @@
 // #31. 패스
 
 // # 32. 문자열 만들기
-const a = prompt('문자열 입력 : ');
-console.log(a.split(' ').length);
+// const a = prompt('문자열 입력 : ');
+// console.log(a.split(' ').length);
+
+// # 33. 거꾸로 출력하기
+const data = prompt('숫자 입력 : ').split(' ').reverse()
+let result = ''
+
+for (let i = 0; i < data.length; i++) {
+    result += data[i]
+}
+
+console.log(result)
