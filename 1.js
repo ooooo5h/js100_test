@@ -304,3 +304,13 @@
 
 // # 34.
 // # 35.
+// # 36. 구구단 출력하기
+const num = prompt('숫자 입력 : ')
+let result = ''
+
+for (i = 1; i <= 9; i++) {
+    // console.log(Number(num)*i)
+    result += Number(num)*i + ' ';
+};
+
+console.log(result);
