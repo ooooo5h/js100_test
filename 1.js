@@ -81,11 +81,11 @@
 
 
 // #10. 별찍기
-const num = Number(prompt('숫자 입력 : '))
+// const num = Number(prompt('숫자 입력 : '))
 
-for(i = 0; i < num; i++){
-    console.log(' '.repeat(num-1-i) + '*'.repeat(2*i+1));
-}
+// for(i = 0; i < num; i++){
+//     console.log(' '.repeat(num-1-i) + '*'.repeat(2*i+1));
+// }
 
 
 // // # 11. for을 이용한 기본 활용
@@ -301,3 +301,6 @@ for(i = 0; i < num; i++){
 // }
 
 // console.log(result)
+
+// # 34.
+// # 35.
